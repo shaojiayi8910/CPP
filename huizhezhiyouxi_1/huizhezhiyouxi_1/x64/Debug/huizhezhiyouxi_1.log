@@ -1,0 +1,13 @@
+﻿  banshouren.cpp
+  gunzi.cpp
+  jiansheng.cpp
+  langyabang.cpp
+  main.cpp
+  manager.cpp
+D:\Project Files\C plus plus\huizhezhiyouxi_1\huizhezhiyouxi_1\manager.cpp(27,5): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\Project Files\C plus plus\huizhezhiyouxi_1\huizhezhiyouxi_1\manager.cpp(28,5): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\Project Files\C plus plus\huizhezhiyouxi_1\huizhezhiyouxi_1\manager.cpp(29,5): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\Project Files\C plus plus\huizhezhiyouxi_1\huizhezhiyouxi_1\manager.cpp(30,5): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  正在生成代码...
+D:\Project Files\C plus plus\huizhezhiyouxi_1\huizhezhiyouxi_1\manager.cpp(113): warning C4715: “manager::showmassager”: 不是所有的控件路径都返回值
+  huizhezhiyouxi_1.vcxproj -> D:\Project Files\C plus plus\huizhezhiyouxi_1\x64\Debug\huizhezhiyouxi_1.exe

@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\Project Files\C plus plus\duotai_dongtailianbian\duotai_dongtailianbian\main.cpp(25,17): warning C4312: “类型强制转换”: 从“int”转换到更大的“int *”
+D:\Project Files\C plus plus\duotai_dongtailianbian\duotai_dongtailianbian\main.cpp(26,17): warning C4312: “类型强制转换”: 从“int”转换到更大的“int *”
+D:\Project Files\C plus plus\duotai_dongtailianbian\duotai_dongtailianbian\main.cpp(27,17): warning C4312: “类型强制转换”: 从“int”转换到更大的“int *”
+D:\Project Files\C plus plus\duotai_dongtailianbian\duotai_dongtailianbian\main.cpp(28,17): warning C4312: “类型强制转换”: 从“int”转换到更大的“int *”
+D:\Project Files\C plus plus\duotai_dongtailianbian\duotai_dongtailianbian\main.cpp(29,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“__int64”
+  duotai_dongtailianbian.vcxproj -> D:\Project Files\C plus plus\duotai_dongtailianbian\x64\Debug\duotai_dongtailianbian.exe
