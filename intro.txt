@@ -1,0 +1,6 @@
+主要在这里测试git的一些基本用法
+1.0 git add
+2.0 git commit
+3.0 git push --rabase 
+4.0测试kdiff3工具
+第二次测试继续测试Kdiff3
