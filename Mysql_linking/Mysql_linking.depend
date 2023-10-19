@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1697683842 source:d:\project_files\cpp\mysql_linking\mysql_linking.cpp
+	<soci/soci.h>
+	<soci/mysql/soci-mysql.h>
+	<iostream>
+	"doctest/doctest.h"
+	<nlohmann/json.hpp>
+

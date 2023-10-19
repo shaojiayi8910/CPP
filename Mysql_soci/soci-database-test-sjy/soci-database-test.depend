@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1697352525 source:d:\project_files\cjlu\heatmapv2\library-demo-test\soci-database-test\main.cpp
+	<soci/soci.h>
+	<soci/mysql/soci-mysql.h>
+	<iostream>
+

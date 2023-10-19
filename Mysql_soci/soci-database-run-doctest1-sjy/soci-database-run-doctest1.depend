@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1697444639 source:d:\project_files\cpp\mysql_soci\soci-database-run-doctest1\main.cpp
+	<soci/soci.h>
+	<soci/mysql/soci-mysql.h>
+	<iostream>
+	"doctest/doctest.h"
+	<nlohmann/json.hpp>
+
