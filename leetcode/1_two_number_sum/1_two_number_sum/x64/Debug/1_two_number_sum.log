@@ -1,0 +1,4 @@
+﻿  1_two_number_sums.cpp
+D:\Project_Files\CPP\leetcode\1_two_number_sum\1_two_number_sum\1_two_number_sums.cpp(10,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Project_Files\CPP\leetcode\1_two_number_sum\1_two_number_sum\1_two_number_sums.cpp(23): warning C4715: “Solution::twoSum”: 不是所有的控件路径都返回值
+  1_two_number_sum.vcxproj -> D:\Project_Files\CPP\leetcode\1_two_number_sum\x64\Debug\1_two_number_sum.exe
