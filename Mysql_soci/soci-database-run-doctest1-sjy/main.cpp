@@ -36,7 +36,7 @@ TEST_CASE("MySQL first test")
         )";
 
         int count;
-        sql << "SELECT COUNT(*) FROM testtable", ;
+        sql << "SELECT COUNT(*) FROM testtable" ;
 
         // 看看这个testdb的数据库里面的表testtable里面，是否soci::into(count)有2条记录，如果是，则测试通过！
         CHECK(count == 2);

@@ -6,3 +6,10 @@
 	"doctest/doctest.h"
 	<nlohmann/json.hpp>
 
+1697696542 source:d:\project_files\cpp\mysql_soci\soci-database-run-doctest1-sjy\main.cpp
+	<soci/soci.h>
+	<soci/mysql/soci-mysql.h>
+	<iostream>
+	"doctest/doctest.h"
+	<nlohmann/json.hpp>
+
