@@ -1,11 +1,13 @@
-#define  _CRT_SECURE_NO_WARNINGS
+ï»¿#define  _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 using namespace std;
 int main()
 {
-	cout << "´´½¨mainº¯Êý" << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½mainï¿½ï¿½ï¿½ï¿½" << endl;
 	cout << "dev branch NO 1 commit" << endl;
 	cout << "dev branch NO 2 commit" << endl;
+	cout << "dev branch NO 3 commit" << endl;
+
 	cout << "main branch NO 1 commit" << endl;
 	cout << "main branch NO 2 commit" << endl;
 	cout << "main branch NO 3 commit" << endl;
