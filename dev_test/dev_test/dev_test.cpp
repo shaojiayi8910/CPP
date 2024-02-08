@@ -7,6 +7,7 @@ int main()
 	cout << "dev branch NO 1 commit" << endl;
 	cout << "dev branch NO 2 commit" << endl;
 	cout << "main branch NO 1 commit" << endl;
+	cout << "main branch NO 2 commit" << endl;
 
 	return 0;
 }
