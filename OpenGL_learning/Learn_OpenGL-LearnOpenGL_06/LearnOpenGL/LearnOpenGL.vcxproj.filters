@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{745e87f7-71f8-4677-9f06-bcfa7c4c6de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\geometry">
+      <UniqueIdentifier>{58570d97-bde7-4b15-b0b5-3e73fa278131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\tessellation">
+      <UniqueIdentifier>{e396e973-cd2d-4aad-a1cb-77c130669cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\texture">
+      <UniqueIdentifier>{0e29996f-19bf-44c4-9c08-10e8c3e3f4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\light">
+      <UniqueIdentifier>{3dce36c6-d087-4ee1-bf84-e9cead1598f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\model">
+      <UniqueIdentifier>{68ccfcfa-060b-4c2b-af38-ec2aaefa99b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\depth">
+      <UniqueIdentifier>{ddfd4fd7-6ed8-4391-bb71-65347b26b52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\blend">
+      <UniqueIdentifier>{baf52c3b-79ca-45c1-b55e-89b81fb2e34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\framebuffer">
+      <UniqueIdentifier>{8bb9d9cf-77f4-4838-8c33-484ea14427ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\uniformbuffer">
+      <UniqueIdentifier>{1f5a6a71-7ebd-40cd-ad7a-0bce454ba0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\skybox">
+      <UniqueIdentifier>{1ec33561-797c-4f42-af59-7bc677867299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\skybox\environment_map">
+      <UniqueIdentifier>{65d52d47-16bf-419a-a939-2bb4afd17c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\skybox\skybox">
+      <UniqueIdentifier>{46e60f5b-6aa8-4aef-adb2-4173c59b08f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\skybox\explode_face">
+      <UniqueIdentifier>{09566a91-0e53-479d-81e1-1da8b5cacc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\skybox\explode_vertex">
+      <UniqueIdentifier>{242ba0ef-aa2a-4cd1-9e53-9f050e55670b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\skybox\view_normal">
+      <UniqueIdentifier>{bca8fa97-f3f7-49a8-9eb7-af2fd5803cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\instance">
+      <UniqueIdentifier>{30c8674b-9c0c-4a6a-8ff8-ecda1f882b80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry_node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render_pass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render_state.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uniform_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_resource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render_pass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render_state.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform_buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\shaders\Tessellation\triangle.tes">
+      <Filter>shader\tessellation</Filter>
+    </None>
+    <None Include="..\resources\shaders\Tessellation\fragment.fs">
+      <Filter>shader\tessellation</Filter>
+    </None>
+    <None Include="..\resources\shaders\Tessellation\triangle.tcs">
+      <Filter>shader\tessellation</Filter>
+    </None>
+    <None Include="..\resources\shaders\Tessellation\vertex.vs">
+      <Filter>shader\tessellation</Filter>
+    </None>
+    <None Include="..\resources\shaders\Geometry\fragment.fs">
+      <Filter>shader\geometry</Filter>
+    </None>
+    <None Include="..\resources\shaders\Geometry\vertex.vs">
+      <Filter>shader\geometry</Filter>
+    </None>
+    <None Include="..\resources\shaders\texture\fragment.fs">
+      <Filter>shader\texture</Filter>
+    </None>
+    <None Include="..\resources\shaders\texture\vertex.vs">
+      <Filter>shader\texture</Filter>
+    </None>
+    <None Include="..\resources\shaders\geometry\geometry.gs">
+      <Filter>shader\geometry</Filter>
+    </None>
+    <None Include="..\resources\shaders\light\light.fs">
+      <Filter>shader\light</Filter>
+    </None>
+    <None Include="..\resources\shaders\light\light.vs">
+      <Filter>shader\light</Filter>
+    </None>
+    <None Include="..\resources\shaders\model\fragment.fs">
+      <Filter>shader\model</Filter>
+    </None>
+    <None Include="..\resources\shaders\model\vertex.vs">
+      <Filter>shader\model</Filter>
+    </None>
+    <None Include="..\resources\shaders\depth\fragment.fs">
+      <Filter>shader\depth</Filter>
+    </None>
+    <None Include="..\resources\shaders\depth\vertex.vs">
+      <Filter>shader\depth</Filter>
+    </None>
+    <None Include="..\resources\shaders\depth\board.fs">
+      <Filter>shader\depth</Filter>
+    </None>
+    <None Include="..\resources\shaders\blend\vertex.vs">
+      <Filter>shader\blend</Filter>
+    </None>
+    <None Include="..\resources\shaders\blend\grass.fs">
+      <Filter>shader\blend</Filter>
+    </None>
+    <None Include="..\resources\shaders\blend\window.fs">
+      <Filter>shader\blend</Filter>
+    </None>
+    <None Include="..\resources\shaders\framebuffer\fragment.fs">
+      <Filter>shader\framebuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\framebuffer\vertex.vs">
+      <Filter>shader\framebuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\uniformbuffer\blue.fs">
+      <Filter>shader\uniformbuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\uniformbuffer\vertex.vs">
+      <Filter>shader\uniformbuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\uniformbuffer\green.fs">
+      <Filter>shader\uniformbuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\uniformbuffer\red.fs">
+      <Filter>shader\uniformbuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\uniformbuffer\yellow.fs">
+      <Filter>shader\uniformbuffer</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\environment_mapping\fragment.fs">
+      <Filter>shader\skybox\environment_map</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\environment_mapping\vertex.vs">
+      <Filter>shader\skybox\environment_map</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\skybox\skyfragment.fs">
+      <Filter>shader\skybox\skybox</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\skybox\skyvertex.vs">
+      <Filter>shader\skybox\skybox</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\explode_face\fragment.fs">
+      <Filter>shader\skybox\explode_face</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\explode_face\geometry_face.gs">
+      <Filter>shader\skybox\explode_face</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\explode_face\vertex.vs">
+      <Filter>shader\skybox\explode_face</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\explode_vertex\fragment.fs">
+      <Filter>shader\skybox\explode_vertex</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\explode_vertex\geometry_vertex.gs">
+      <Filter>shader\skybox\explode_vertex</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\explode_vertex\vertex.vs">
+      <Filter>shader\skybox\explode_vertex</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\view_normal\fragment.fs">
+      <Filter>shader\skybox\view_normal</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\view_normal\geometry_normal.gs">
+      <Filter>shader\skybox\view_normal</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox\view_normal\vertex.vs">
+      <Filter>shader\skybox\view_normal</Filter>
+    </None>
+    <None Include="..\resources\shaders\instance\fragment.fs">
+      <Filter>shader\instance</Filter>
+    </None>
+    <None Include="..\resources\shaders\instance\vertex.vs">
+      <Filter>shader\instance</Filter>
+    </None>
+    <None Include="..\resources\shaders\instance\rock_fragment.fs">
+      <Filter>shader\instance</Filter>
+    </None>
+    <None Include="..\resources\shaders\instance\rock_vertex.vs">
+      <Filter>shader\instance</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
